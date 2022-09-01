@@ -1,0 +1,7 @@
+server:
+  port: 8080
+dubbo:
+  application:
+    name: user-web
+  registry:
+    address:

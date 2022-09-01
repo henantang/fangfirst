@@ -13,6 +13,7 @@
         <module>fang-common-util</module>
         <module>fang-service-util</module>
         <module>fang-user-service</module>
+        <module>fang-user-web</module>
     </modules>
 
     <parent>
