@@ -12,6 +12,7 @@
     <artifactId>fang-api</artifactId>
 
     <dependencies>
+
         <!-- 通用mapper -->
         <dependency>
             <groupId>tk.mybatis</groupId>

@@ -1,0 +1,21 @@
+server:
+  port: 8071
+dubbo:
+  application:
+    name: manage-service
+  registry:
+    address: zookeeper://192.168.1.6:2181
+  protocol:
+    name: dubbo
+    port: 9992
+spring:
+  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gmall
+    password: root
+    username: root
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+

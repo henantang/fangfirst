@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="fang-user-web" />
-        <module name="fang-api" />
-        <module name="fang-user-service" />
-        <module name="fang-common-util" />
         <module name="fang-service-util" />
+        <module name="fang-user-service" />
+        <module name="fang-manage-service" />
+        <module name="fang-common-util" />
+        <module name="fang-user-web" />
+        <module name="fang-manage-web" />
+        <module name="fang-api" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +20,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="fang-api" options="-parameters" />
       <module name="fang-common-util" options="-parameters" />
+      <module name="fang-manage-service" options="-parameters" />
+      <module name="fang-manage-web" options="-parameters" />
       <module name="fang-service-util" options="-parameters" />
       <module name="fang-user-service" options="-parameters" />
       <module name="fang-user-web" options="-parameters" />
