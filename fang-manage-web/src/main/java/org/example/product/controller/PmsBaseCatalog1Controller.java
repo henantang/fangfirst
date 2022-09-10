@@ -1,6 +1,6 @@
 package org.example.product.controller;
 
-import jdk.nashorn.internal.ir.annotations.Reference;
+import com.alibaba.dubbo.config.annotation.Reference;
 import org.example.product.pojo.PmsBaseCatalog1;
 import org.example.product.pojo.PmsBaseCatalog2;
 import org.example.product.service.PmsBaseCatalog1Service;
