@@ -1,7 +1,7 @@
 package org.example.product.dao;
 
 import org.example.product.pojo.PmsBaseAttrValue;
-import tk.mybatis.mapper.common.BaseMapper;
+import tk.mybatis.mapper.common.Mapper;
 
-public interface PmsBaseAttrValueMapper extends BaseMapper<PmsBaseAttrValue> {
+public interface PmsBaseAttrValueMapper extends Mapper<PmsBaseAttrValue> {
 }

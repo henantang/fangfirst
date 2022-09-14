@@ -15,9 +15,9 @@ public class PmsBaseCatalog2ServiceImpl implements PmsBaseCatalog2Service {
     private PmsBaseCatalog2Mapper pmsBaseCatalog2Mapper;
 
     @Override
-    public List<PmsBaseCatalog2> getPmsBaseCatalog2(Integer catalog1) {
+    public List<PmsBaseCatalog2> getPmsBaseCatalog2(Integer catalogId) {
         PmsBaseCatalog2 pmsBaseCatalog2 = new PmsBaseCatalog2();
-        pmsBaseCatalog2.setCatalog1Id(catalog1);
+        pmsBaseCatalog2.setCatalog1Id(catalogId);
         return pmsBaseCatalog2Mapper.select(pmsBaseCatalog2);
     }
 }
